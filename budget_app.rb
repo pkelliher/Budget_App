@@ -1,36 +1,42 @@
 puts "Welcome to budget app V0.1"
 
-# Seperate, space seperated, debt amounts:
-puts "Type in your two debt amounts seperated by a space"
+# Promt to the user to enter in credit card debt amount.
+puts "Please enter credit card debt amounts, when finished, please type END (upper case)."
 
-debt_amounts = gets.chomp
+# user_input stores the credit card debt amounts. input_arr builds the array with the user_input elements.
+user_input = ""
+input_arr = []
 
-debt1, debt2 = debt_amounts.split
+# Building while loop.
+while user_input != "END"  do
+    # Print's the prompt
+    puts "Please enter next amount here:"
 
-puts "Thank you, based on your entries, your first amount due is $#{debt1} and your second debt amount is $#{debt2}.
-Your total debt amount is $#{debt1.to_i + debt2.to_i}."
+    # Receives the user's input and stores it in the user_input variable
+    user_input = gets.chomp
 
-#Go over with David the best method for counting entries in a string similar to what is outlined in 
-#this Stack Overflow article https://stackoverflow.com/questions/1416059/best-way-to-count-words-in-a-string-in-ruby 
+    # If user types END the while loop is broken.
+    if user_input != "END"
+    input_arr << user_input.to_i
+    end
+end
 
-# Enter debt amount (in dollars)
-puts "Type in your total debt amount?"
+# This is storing the sum of all elements in the input_arr in a variable called total_cc_debt.
+total_cc_debt = input_arr.sum
 
-total_debt = gets.chomp
+# This displays the total credit card debt to the user.
+puts "Thank you for entering in your credit card debt, based on your entries your 
+total credit card debt is: $#{total_cc_debt}."
 
-puts "Thank you, I can see your total debt is $#{total_debt}."
+# Prompts the user to enter income amount (in dollars/month)
+puts "Now please type in your total monthly income?"
 
-# Enter income amount (in dollars/month)
-puts "Type in your monthly total income?"
-
+# total_monthly_income stores the user monthly income amount. 
 total_monthly_income = gets.chomp
 
+# Prints the total income back to the user.
 puts "Thank you, I can see your total monthly income is $#{total_monthly_income}."
 
-# How many months does it take to pay off the debt?
-
-puts "The total time it will take for you to pay off your debt is #{total_debt.to_i / total_monthly_income.to_i} months."
-
-# Create option box for debt entries and amount owed within the CLI.
-
-
+# How many months does it take to pay off the credit card debt?
+puts "The total time it will take for you to pay off your credit card debt is 
+#{total_cc_debt.to_i / total_monthly_income.to_i} months."
