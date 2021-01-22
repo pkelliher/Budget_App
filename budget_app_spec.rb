@@ -38,8 +38,9 @@ RSpec.describe "BudgetApp" do
                 Foo.speak
 
                 Foo.new.speak2
-
+                #This is a unit test which indiccates it has recived speak
                 expect(Foo).to have_received(:speak2)
+                #Once received it prints "Hellow, world!"
                 expect(Kernel).to have_received(:puts).with("Hello, world!")
             end
         end
