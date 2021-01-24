@@ -85,7 +85,7 @@ class Application
       # Receives the user's input and stores it in the user_input variable
       user_input = gets.chomp
 
-      # If user types END the while loop is broken. Can add percision when Rails app is created, to_f.
+      # Can add percision when Rails app is created, to_f (float).
       if user_input != "END"
         input_arr << user_input.to_f
       end
