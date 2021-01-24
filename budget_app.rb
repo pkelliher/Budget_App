@@ -77,7 +77,7 @@ class Application
     user_input = ""
     input_arr = []
 
-    # Building while loop.
+    # Building while loop. And will only break the loop once they user types the string "END".
     while user_input != "END"
       # Print's the prompt
       puts("Please enter next amount here:")
