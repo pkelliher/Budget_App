@@ -90,7 +90,7 @@ class Application
         input_arr << user_input.to_f
       end
     end
-    # This is storing the sum of all elements in the input_arr in a variable called total_cc_debt.
+    # This is storing the sum of all elements in the input_arr (input array) in a variable called total_cc_debt (Total credit card debt).
     @total_cc_debt = input_arr.sum
 
     # This displays the total credit card debt to the user.
