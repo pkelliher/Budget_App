@@ -2,13 +2,13 @@ require "pry"
 require_relative("./budget_app.rb")
 
 class Foo
-    # Class method
+    # Class method example
     def self.speak
     end
 
-    # Instance method
+    # Instance method example
     def speak2
-        puts "Goodbye world"
+        puts "Goodbye world" 
     end
 end
 
