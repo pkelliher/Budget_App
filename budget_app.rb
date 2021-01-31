@@ -107,7 +107,7 @@ class Application
     # Prompts the user to enter income amount (in dollars/month)
     puts "Now please type in your total monthly income?"
 
-    # total_monthly_income stores the user monthly income amount.
+    # total_monthly_income stores the user monthly income amount the adds chomp
     @total_monthly_income = gets.chomp
 
     # Prints the total income back to the user.
