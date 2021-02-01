@@ -116,7 +116,7 @@ class Application
   end
 
   def debt_calculation
-    # How many months does it take to pay off the credit card debt?
+    # How many months does it take to pay off the credit card debt? Truncate 2 limits the float value to 2 digits.
     puts "The total time it will take for you to pay off your credit card debt is
 #{(@total_cc_debt.to_f / @total_monthly_income.to_f).truncate(2)} months."
   end
