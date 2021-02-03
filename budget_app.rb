@@ -101,7 +101,7 @@ class Application
 
 
   def enter_income
-    # Displays the the text below.
+    # Displays the the text below where a user can enter in their income amounts.
     puts "Please enter income amounts here."
 
     # Prompts the user to enter income amount (in dollars/month)
