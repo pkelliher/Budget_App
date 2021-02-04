@@ -79,7 +79,7 @@ class Application
 
     # Building while loop. And will only break the loop once they user types the string "END".
     while user_input != "END"
-      # Print's the prompt
+      # Print's the prompt for user to continue to enter in amounts.
       puts("Please enter next amount here:")
 
       # Receives the user's input and stores it in the user_input variable, chomp removes /n carriage return from the end of string.

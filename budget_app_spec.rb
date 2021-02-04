@@ -8,7 +8,7 @@ class Foo
 
     # Instance method example
     def speak2
-        puts "Goodbye world" 
+        puts "Goodbye world"
     end
 end
 
