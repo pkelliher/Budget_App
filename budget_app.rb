@@ -85,7 +85,7 @@ class Application
       # Receives the user's input and stores it in the user_input variable, chomp removes /n carriage return from the end of string.
       user_input = gets.chomp
 
-      # Can add percision when Rails app is created, to_f (float, number with a decimal).
+      # Can add percision when Rails app is created, to_f (float, decimal).
       if user_input != "END"
         input_arr << user_input.to_f
       end
