@@ -104,7 +104,7 @@ class Application
     # Displays the the text below where a user can enter in their income amounts.
     puts "Please enter income amounts here."
 
-    # Prompts the user to enter income amount (in dollars/month)
+    # Prompts the user to enter total monthly income amount (in dollars/month)
     puts "Now please type in your total monthly income?"
 
     # total_monthly_income stores the user monthly income amount the adds chomp to remove the carriage return.
