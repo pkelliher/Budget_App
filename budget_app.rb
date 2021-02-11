@@ -107,7 +107,7 @@ class Application
     # Prompts the user to enter total monthly income amount (in dollars/month)
     puts "Now please type in your total monthly income?"
 
-    # total_monthly_income instance variable stores the user monthly income amount the adds chomp to remove the carriage return.
+    # The total_monthly_income instance variable stores the user monthly income amount the adds chomp to remove the carriage return.
     @total_monthly_income = gets.chomp
 
     # Prints the total income back to the user.
