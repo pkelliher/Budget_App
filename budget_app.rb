@@ -105,7 +105,7 @@ class Application
     puts "Please enter income amounts here."
 
     # Prompts the user to enter total monthly income amount (in dollars/month)
-    puts "Now please type in your total monthly income?"
+    puts "Please type in your total monthly income?"
 
     # The total_monthly_income instance variable stores the total user monthly income amount the adds chomp to remove the carriage return.
     @total_monthly_income = gets.chomp
