@@ -111,7 +111,7 @@ class Application
     @total_monthly_income = gets.chomp
 
     # Prints the total income back to the user.
-    puts "Thank you, I can see your total monthly income is $#{@total_monthly_income}."
+    puts "Thank you, I can see your total monthly income is $#{@total_monthly_income} dollars."
     show_menu
   end
 
