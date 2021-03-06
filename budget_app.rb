@@ -94,7 +94,7 @@ class Application
     @total_cc_debt = input_arr.sum
 
     # This displays the user's total credit card debt amount.
-    puts "Thank you for entering in your credit card debt, based on your current entries your total credit card debt is: $#{@total_cc_debt}."
+    puts "Thank you for entering in your credit card debt. Based on your current entries your total credit card debt is: $#{@total_cc_debt}."
     show_menu
   end
 
