@@ -110,7 +110,7 @@ class Application
     # The "total_monthly_income" instance variable stores the total monthly income amount then adds chomp to remove the carriage return.
     @total_monthly_income = gets.chomp
 
-    # Prints the total income back to the user.
+    # Prints the total income for the user.
     puts "Thank you, I can see your total monthly income is $#{@total_monthly_income}"
     show_menu
   end
