@@ -120,6 +120,13 @@ class Application
     puts "The total time it will take for you to pay off your credit card debt is
 #{(@total_cc_debt.to_f / @total_monthly_income.to_f).truncate(2)} months."
   end
+
+  def debt_exceeds_income
+    # If debt exceeds the total monthly income amount.
+    if @total_cc_debt > @total_monthly_income
+      return true
+    end
+    return false
 end
 
 # error handling to ensure there are not zero values for both total_cc_debt and total_monthly_income.
