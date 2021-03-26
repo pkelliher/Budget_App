@@ -122,7 +122,7 @@ class Application
   end
 
   def debt_exceeds_income
-    # If/then conditional when debt exceeds the total monthly income amount.
+    # If then conditional statement, when debt exceeds the total monthly income amount.
     if @total_cc_debt > @total_monthly_income
       return true
     end
