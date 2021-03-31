@@ -93,7 +93,7 @@ class Application
     # This stores a sum of all elements (dollar amounts), in the input_arr (input array) in a variable called total_cc_debt (Total credit card debt).
     @total_cc_debt = input_arr.sum
 
-    # This displays the user's total credit card debt amount.
+    # This will display the user's total credit card debt amount.
     puts "Thank you for entering in your credit card debt. Based on your current entries your total credit card debt is: $#{@total_cc_debt}."
     show_menu
   end
