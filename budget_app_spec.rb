@@ -12,7 +12,7 @@ class Foo
     end
 end
 
-# RSpec tests
+# RSpec unit testing
 RSpec.describe "BudgetApp" do
     describe "#start" do
         it "displays the welcome message" do
