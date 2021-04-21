@@ -104,7 +104,7 @@ class Application
     # Prompts a user to enter in income dollar amounts and multiple dollar amounts if availble.
     puts "Please enter income amounts here."
 
-    # Prompts the user to enter total monthly income amount.
+    # Prompts the user to enter total monthly dollar income amount.
     puts "Please type in your total monthly income?"
 
     # The "total_monthly_income" instance variable stores the total monthly income amount then adds chomp to remove the carriage return.
