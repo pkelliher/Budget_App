@@ -82,7 +82,7 @@ class Application
       # Print's the prompt for user to continue to enter in amounts.
       puts("Please enter next amount here:")
 
-      # Receives the user's input and stores it in the user_input variable, chomp removes /n carriage return from the end of string.
+      # Gets user input, chomp removes the /n
       user_input = gets.chomp
 
       # Can add percision when Rails app is created, to_f (float, decimal).
