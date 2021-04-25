@@ -72,7 +72,7 @@ class Application
   end
 
   def enter_debt
-    puts "Please enter debt amounts here."
+    puts "Please enter your debt amounts here."
     #user_input stores the credit card debt amounts. input_arr builds the array with the user_input elements.
     user_input = ""
     input_arr = []
