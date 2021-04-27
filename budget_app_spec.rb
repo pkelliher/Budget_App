@@ -13,7 +13,7 @@ class Foo
     end
 end
 
-# RSpec unit testing for budget app confirming beahvoir.
+# RSpec unit testing for budget app BDD
 RSpec.describe "BudgetApp" do
     describe "#start" do
         it "displays the welcome message" do
