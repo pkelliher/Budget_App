@@ -24,7 +24,7 @@ RSpec.describe "BudgetApp" do
             expect(Kernel).to have_received(:puts).with("Welcome to budget app")
         end
     end
-#show_menu application test
+#show_menu application test menu
     describe "#show_menu" do
         it "displays menu" do
             
