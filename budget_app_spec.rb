@@ -1,7 +1,7 @@
 require "pry"
 # Relative path to budget app
 require_relative("./budget_app.rb")
-#Foo class
+#Foo class Test
 class Foo
     # Class method example
     def self.speak
