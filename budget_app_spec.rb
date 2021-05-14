@@ -1,5 +1,5 @@
 require "pry"
-# Relative path to budget app
+# Relative path to budget application
 require_relative("./budget_app.rb")
 #Foo class example 
 class Foo
