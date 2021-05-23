@@ -30,7 +30,7 @@ RSpec.describe "BudgetApp" do
             
         end
     end
-#foo method
+#foo method with speak method
     describe "Foo" do
         describe ".speak" do
             it "speaks" do
