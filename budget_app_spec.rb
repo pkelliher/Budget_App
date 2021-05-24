@@ -30,8 +30,9 @@ RSpec.describe "BudgetApp" do
             
         end
     end
-#foo method with speak method
+#foo method
     describe "Foo" do
+        #speak method
         describe ".speak" do
             it "speaks" do
                 allow(Foo).to receive(:speak2).and_call_original
