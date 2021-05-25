@@ -38,9 +38,10 @@ RSpec.describe "BudgetApp" do
                 allow(Foo).to receive(:speak2).and_call_original
                 allow(Kernel).to receive(:puts).and_call_original
 
-                #Class method
+                #Class speak method
                 Foo.speak
 
+                # speak2 method
                 Foo.new.speak2
                 #This is a unit test which indiccates it has recived speak
                 expect(Foo).to have_received(:speak2)
