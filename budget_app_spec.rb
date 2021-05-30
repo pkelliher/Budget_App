@@ -13,7 +13,7 @@ class Foo
     end
 end
 
-# RSpec unit Behavioral Driven Design (BDD) testing for budget application using describe method
+# RSpec unit Behavioral Driven Design (BDD) testing for budget application using the describe method
 RSpec.describe "BudgetApp" do
     describe "#start" do
         it "displays the welcome message" do
