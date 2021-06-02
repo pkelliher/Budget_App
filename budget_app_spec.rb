@@ -7,7 +7,7 @@ class Foo
     def self.speak
     end
 
-    # Instance method example speak2
+    # Instance method example speak2 see below
     def speak2
         puts "Goodbye world"
     end
