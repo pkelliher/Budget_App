@@ -38,7 +38,7 @@ RSpec.describe "BudgetApp" do
                 allow(Foo).to receive(:speak2).and_call_original
                 allow(Kernel).to receive(:puts).and_call_original
 
-                #Class speak method
+                #Class method speak
                 Foo.speak
 
                 # speak2 method
