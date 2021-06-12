@@ -41,7 +41,7 @@ RSpec.describe "BudgetApp" do
                 #Class method speak
                 Foo.speak
 
-                # speak2 method
+                # speak2 method comment
                 Foo.new.speak2
                 #This is a unit test which indiccates it has recieved the speak method
                 expect(Foo).to have_received(:speak2)
