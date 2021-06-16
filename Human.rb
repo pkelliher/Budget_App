@@ -17,6 +17,7 @@ class Human
     end
 end
 
+#Human class with new mthod
 patrick = Human.new("Patrick", 44)
 david = Human.new("David", 40)
 
