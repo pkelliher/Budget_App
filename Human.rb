@@ -1,3 +1,4 @@
+# Human class
 class Human
     def initialize(name, age)
         @name = name
