@@ -1,11 +1,12 @@
 # Human class
 class Human
-    # initialize method with name and age arguments
+    # initializing methods with name and age arguments
     def initialize(name, age)
         @name = name
         @age = age
     end
 
+    #brushteeth method
     def brushteeth
         puts "#{@name} please make sure to brush your teeth for at least 3 mintues."
     end
