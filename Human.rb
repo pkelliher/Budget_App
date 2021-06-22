@@ -6,11 +6,12 @@ class Human
         @age = age
     end
 
-    #brushteeth method
+    # brushteeth method
     def brushteeth
         puts "#{@name} please make sure to brush your teeth for at least 3 mintues."
     end
     
+    # eat_breakfast method
     def eat_breakfast
         puts "#{@name} had bacon and eggs for breakfast."
     end
