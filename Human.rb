@@ -15,7 +15,7 @@ class Human
     def eat_breakfast
         puts "#{@name} had bacon and eggs for breakfast."
     end
-
+    # introduce method
     def introduce_self
         puts "Hello my name is #{@name}, and my age is #{@age}."
     end
