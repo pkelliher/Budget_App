@@ -11,11 +11,11 @@ class Human
         puts "#{@name} please make sure to brush your teeth for at least 3 mintues."
     end
     
-    # eat_breakfast method
+    # eat_breakfast class method
     def eat_breakfast
         puts "#{@name} had bacon and eggs for breakfast."
     end
-    # introduce method
+    # introduce class method
     def introduce_self
         puts "Hello my name is #{@name}, and my age is #{@age}."
     end
