@@ -21,7 +21,7 @@ class Human
     end
 end
 
-#Human class with new method and method arguments name and age.
+#Human class with new method for Human class with arguments containing name and age.
 patrick = Human.new("Patrick", 44)
 david = Human.new("David", 40)
 
