@@ -6,7 +6,7 @@ class Human
         @age = age
     end
 
-    # brushteeth method
+    # brushteeth class method
     def brushteeth
         puts "#{@name} please make sure to brush your teeth for at least 3 mintues."
     end
