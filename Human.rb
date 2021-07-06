@@ -11,7 +11,7 @@ class Human
         puts "#{@name} please make sure to brush your teeth for at least 3 mintues."
     end
     
-    # eat_breakfast class method with name insance var
+    # eat_breakfast class method with name insance variable
     def eat_breakfast
         puts "#{@name} had bacon and eggs for breakfast."
     end
