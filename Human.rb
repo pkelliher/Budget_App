@@ -1,6 +1,6 @@
 # Human class
 class Human
-    # initializing method with name and age arguments
+    # initializing method with both a name and age argument
     def initialize(name, age)
         @name = name
         @age = age
